@@ -11,17 +11,25 @@
     <link rel="stylesheet" href="styles.css">
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="favicon.png">
+    <style>
+        #campaigns{
+            width:400px;
+            height:600px;
+            border:1px solid #333;
+        }
+    </style>
 </head>
 <body>
+
+    <!-- This script will inject a Campaign iframe into your website. By default, it will add it to the parent element,
+    but you can also specify a custom element to inject it into by adding the data-container-id attribute. -->
+    <script src="https://studio-dev.d-id.com/embed-campaign.js" data-campaign-id="cmp_3iaddldwurs0inkvk8etm" data-client-key="Z29vZ2xlLW9hdXRoMnwxMTI1MTk0ODM0NzUyNDExMzIxMzk6OWlqdU1kWE1BUnpfbFlxdE81cDJT" defer data-container-id="campaigns"></script>
+
     <header>
         <h1>Welcome to My Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#section1">Section 1</a></li>
-                <li><a href="#section2">Section 2</a></li>
-                <li><a href="#section3">Section 3</a></li>
-            </ul>
-        </nav>
+        <div id="#campaigns">
+
+        </div>
     </header>
 
     <main>
